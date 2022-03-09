@@ -38,6 +38,7 @@ namespace visuals {
 
 	void Glow();
 	void ChangeWorldColors();
+	void D3D9DrawEsp();
 	bool ChangeChamsColors(void* results, const DrawModelInfo& info, CMatrix3x4* bones, float* weights,
 		float* delayedWeights, const CVector& modelOrigin, const int32_t flags);
 
