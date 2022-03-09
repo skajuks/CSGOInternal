@@ -130,3 +130,7 @@ bool visuals::ChangeChamsColors(void* results, const DrawModelInfo& info, CMatri
 	}
 	return false;
 }
+
+void visuals::D3D9DrawEsp() {
+	DEBUG("test");
+}
